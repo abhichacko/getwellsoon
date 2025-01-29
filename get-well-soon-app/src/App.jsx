@@ -1,14 +1,12 @@
-import { useState } from "react";
 import "./App.css";
 import { GetWellSoon } from "./pages/GetWellSoon";
+import Container from "react-bootstrap/Container";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
+    <Container fluid>
       <GetWellSoon />
-    </>
+    </Container>
   );
 }
 
