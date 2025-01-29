@@ -5,6 +5,7 @@ import sass from "sass";
 
 
 export default defineConfig({
+  base: "/getwellsoon",
   plugins: [react()],
   css: {
     preprocessorOptions: {
